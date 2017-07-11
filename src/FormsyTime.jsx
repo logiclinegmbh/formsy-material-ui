@@ -2,7 +2,7 @@ import React from 'react';
 import createClass from 'create-react-class';
 import PropTypes from 'prop-types';
 import Formsy from 'formsy-react';
-import TimePicker from 'material-ui/TimePicker';
+import TimePicker from '@logicline/material-ui/TimePicker';
 import { setMuiComponentAndMaybeFocus } from './utils';
 
 const FormsyTime = createClass({

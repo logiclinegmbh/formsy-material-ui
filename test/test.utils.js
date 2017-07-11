@@ -4,9 +4,9 @@
 
 import React from 'react';
 import FormsyText from '../src/FormsyText';
-import TextField from 'material-ui/TextField';
+import TextField from '@logicline/material-ui/TextField';
 import FormsyRadioGroup from '../src/FormsyRadioGroup';
-import { RadioButtonGroup } from 'material-ui/RadioButton';
+import { RadioButtonGroup } from '@logicline/material-ui/RadioButton';
 import { mountTestForm } from './support';
 
 const setup = () => {

@@ -3,7 +3,7 @@ import createClass from 'create-react-class';
 import PropTypes from 'prop-types';
 import keycode from 'keycode';
 import Formsy from 'formsy-react';
-import TextField from 'material-ui/TextField';
+import TextField from '@logicline/material-ui/TextField';
 import { setMuiComponentAndMaybeFocus, debounce } from './utils';
 
 const FormsyText = createClass({

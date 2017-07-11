@@ -2,7 +2,7 @@ import React from 'react';
 import createClass from 'create-react-class';
 import PropTypes from 'prop-types';
 import Formsy from 'formsy-react';
-import { RadioButtonGroup, RadioButton } from 'material-ui/RadioButton';
+import { RadioButtonGroup, RadioButton } from '@logicline/material-ui/RadioButton';
 import { setMuiComponentAndMaybeFocus } from './utils';
 
 const FormsyRadioGroup = createClass({

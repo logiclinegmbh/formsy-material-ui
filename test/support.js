@@ -1,7 +1,8 @@
 import { mount } from 'enzyme';
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import { Form } from 'formsy-react';
-import getMuiTheme from 'material-ui/styles/getMuiTheme';
+import getMuiTheme from '@logicline/material-ui/styles/getMuiTheme';
 
 export const mountTestForm = (childrenFn, formProps = {}) => {
   class TestForm extends Component {

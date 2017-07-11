@@ -3,11 +3,11 @@
 
 import React, { Component, PropTypes } from 'react';
 import FormsyText from '../src/FormsyText';
-import TextField from 'material-ui/TextField';
+import TextField from '@logicline/material-ui/TextField';
 import { Simulate } from 'react-addons-test-utils';
 import { mountTestForm } from './support';
 import { Form } from 'formsy-react';
-import getMuiTheme from 'material-ui/styles/getMuiTheme';
+import getMuiTheme from '@logicline/material-ui/styles/getMuiTheme';
 import { mount } from 'enzyme';
 
 function makeChildrenFn(props) {
